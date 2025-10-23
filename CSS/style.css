@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/*Regra @charset caso haja problemas com acentuação*/
+* {
+  /* Configurações Globais das CSS*/
+  height: 100%;
+}
+body {
+  font-family: Arial, Arial, Helvetica, sans-serif;
+  color: black;
+  /*background-image: linear-gradient(-25deg, yellow, red);*/
+  background-image: radial-gradient(circle, red 10%, yellow 40%, green 50%);
+  font-size: 20px;
+}
+h1 {
+  color: hsl(0, 77%, 54%);
+  background-color: goldenrod;
+}
+a {
+  color: rgb(165, 42, 42);
+  text-decoration: none;
+}
+h2 {
+  color: darkred;
+}
+p {
+  text-align: justify;
+}
